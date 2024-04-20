@@ -221,7 +221,7 @@ export default function Index() {
             </button>
 
             <div className="text-sm text-gray-300 mt-4">
-              {t("Vmail sender is beta now. ")}
+              {t("FBMAIL sender is beta now. ")}
               <span
                 onClick={() => setShowSenderModal(true)}
                 className="text-cyan-500 cursor-pointer">
