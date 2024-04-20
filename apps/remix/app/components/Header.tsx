@@ -13,6 +13,17 @@ export default function Header() {
           <span>FBMAIL.CC</span>
         </button>
       </Link>
+      
+      <Link
+        to="/about"
+        className="ml-auto text-sm md:text-base hidden md:block">
+        {t("About")}
+      </Link>
+      <Link
+        to="/privacy"
+        className="ml-3 md:ml-8 text-sm md:text-base hidden md:block">
+        {t("Privacy")}
+      </Link>
     </div>
   );
 }
