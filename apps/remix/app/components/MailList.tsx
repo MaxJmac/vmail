@@ -66,28 +66,33 @@ export function MailList(props: { mails: Email[] }) {
     <>
       <div className="rounded-md border border-cyan-50/20">
         <div className="w-full rounded-t-md p-2 flex items-center bg-zinc-800 text-zinc-200 gap-2">
-          <MailIcon className="size-6" />
-          <div className="flex items-center font-bold text-lg font-mono">
+          <div className="flex items-center justify-start gap-2 font-bold">
+            <MailIcon className="size-6" />
             {t("INBOX")}
-            <span className="ml-1 text-base">
-              {data.length > 0 && <span>({data.length})</span>}
-            </span>
+            {data.length > 0 && (
+              <span className="inline-flex items-center justify-center w-5 h-5 text-xs font-bold text-white bg-zinc-600 rounded-full">
+                {data.length}
+              </span>
+            )}
           </div>
           <button
             className="rounded ml-auto p-1"
+            title="refresh"
             onClick={() =>
               queryClient.invalidateQueries({
                 queryKey: ["mails"],
               })
             }>
-            {data.length === 0 && <Lock className="size-6 " />}
-            {data.length > 0 && <Refresh className={`size-6 animate-spin`} />}
+            {data.length === 0 && <Lock className="size-6" />}
+            {data.length > 0 && (
+              <Refresh className="size-6 animate-spin hover:opacity-50 transition-all duration-300" />
+            )}
           </button>
         </div>
 
-        <div className="grids flex flex-col flex-1 h-[450px] overflow-y-auto p-2">
+        <div className="grids flex flex-col flex-1 h-[488px] overflow-y-auto p-2">
           {data.length === 0 && (
-            <div className="w-full items-center h-[450px] flex-col justify-center flex">
+            <div className="w-full items-center h-[488px] flex-col justify-center flex">
               <Loader />
               <p className="text-zinc-400 mt-6">{t("Waiting for emails...")}</p>
             </div>

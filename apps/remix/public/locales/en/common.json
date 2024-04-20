@@ -18,6 +18,7 @@
   "INBOX": "INBOX",
   "Waiting for emails...": "Waiting for emails...",
   "Try it": "Try it",
+  "Vmail can now send emails!": "FBMAIL can now send emails!",
   "Forward only, no storage": "Unlimited, Forward only, no storage",
   "Sending email *": "Sending email *",
   "Sending name": "Sending name",
@@ -26,5 +27,17 @@
   "Email content *": "Email content *",
   "Sending...": "Sending...",
   "Send": "Send",
-  "Please do not send illegal content such as politics, pornography, etc": "Please do not send illegal content such as politics, pornography, etc"
+  "Please do not send illegal content such as politics, pornography, etc": "Please do not send illegal content such as politics, pornography, etc",
+  "Message sent": "Message sent",
+  "Have a password? Login.": "Have a password? Login.",
+  "Save password": "Save password",
+  "Save your password and continue using this email in 1 day": "Save your password and continue using this email in 1 day",
+  "Login": "Login",
+  "Submitting...": "Submitting...",
+  "Remember your password, otherwise your email will expire and cannot be retrieved": "Remember your password, otherwise your email will expire and cannot be retrieved",
+  "Enter your password *": "Enter your password *",
+  "Log out": "Log out",
+  "Terms": "Terms",
+  "Domain": "Domain",
+  "How to get a password? Click to create a temporary email and receive at least one email to generate a password": "How to get a password? Click to create a temporary email and receive at least one email to generate a password"
 }

@@ -1,5 +1,6 @@
 {
-  "name": "remix",
+  "name": "vmail-web",
+  "version": "1.0.0",
   "private": true,
   "sideEffects": false,
   "type": "module",
@@ -28,6 +29,7 @@
     "isbot": "^4.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
     "react-i18next": "^14.1.0",
     "remix-i18next": "^6.0.1"
   },
