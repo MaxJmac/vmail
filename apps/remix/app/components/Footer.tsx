@@ -17,46 +17,11 @@ export default function Footer() {
         to="https://vmail.dev"
         target="_blank">
         {" "}
-        © 2024 Products of Yesmore
+        © 2024 fbmail.cc
       </Link>
       <div className="flex items-center gap-3 mt-3 md:hidden text-sm text-gray-300">
         <Link to="/about">{t("About")}</Link>
         <Link to="/privacy">{t("Privacy")}</Link>
-      </div>
-      <div className="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start">
-        <Link
-          to="https://huawei.com.tw"
-          target="_blank"
-          title="Google Earth"
-          className="text-gray-400 hover:text-gray-500  scale-[1.2]">
-          🌍
-        </Link>
-        <Link
-          to="mailto:team@inke.app"
-          title="Email"
-          className="text-gray-400 hover:text-gray-500">
-          <MailIcon className="w-6 h-6" />
-        </Link>
-        <Link
-          to="https://twitter.com/yesmoree"
-          target="_blank"
-          title="Twitter"
-          className="text-gray-400 hover:text-gray-500">
-          <Twitter />
-        </Link>
-        <Link
-          to="https://gitlab.com/unvc/vmail"
-          target="_blank"
-          title="Github"
-          className="text-gray-400 hover:text-gray-500">
-          <Github />
-        </Link>
-        {/* <Link
-          to="https://www.buymeacoffee.com/yesmore"
-          target="_blank"
-          title="Buy me a coffee">
-          <Coffee className="w-6 h-6" />
-        </Link> */}
       </div>
     </div>
   );
