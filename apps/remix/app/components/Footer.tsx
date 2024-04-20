@@ -14,15 +14,11 @@ export default function Footer() {
       </Link>
       <Link
         className="mt-4 text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0"
-        to="https://vmail.dev"
+        to="https://fbmail.cc"
         target="_blank">
         {" "}
         © 2024 fbmail.cc
       </Link>
-      <div className="flex items-center gap-3 mt-3 md:hidden text-sm text-gray-300">
-        <Link to="/about">{t("About")}</Link>
-        <Link to="/privacy">{t("Privacy")}</Link>
-      </div>
     </div>
   );
 }
