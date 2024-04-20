@@ -3,9 +3,9 @@ main = "src/index.ts"
 compatibility_date = "2023-12-18"
 
 [vars]
-TURSO_DB_AUTH_TOKEN = ""
-TURSO_DB_URL = ""
-EMAIL_DOMAIN = "vmail.dev"
+TURSO_DB_AUTH_TOKEN = "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJhIjoicnciLCJpYXQiOjE3MTM2MzE2OTgsImlkIjoiZjI1OTUwNDctZDk1NC00OTU2LWFiN2EtZTRlODk1MmU5MmQ2In0.bohg3Q5tERxgAsxyeauvF9j1iughNy_2C0mG7Jxy3e3V6P290aumtBqXpFJCGQbjWoQtLgIL_bJId083VV11DQ"
+TURSO_DB_URL = "libsql://vmail-maxjmac.turso.io"
+EMAIL_DOMAIN = "fbmail.cc"
 
 # [[d1_databases]]
 # binding = "DB"
