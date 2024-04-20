@@ -28,7 +28,7 @@ import { useSenderModal } from "~/components/sender";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Vmail - Virtual Temporary Email" },
+    { title: "FBMAIL - Virtual Temporary Email" },
     {
       name: "description",
       content:
